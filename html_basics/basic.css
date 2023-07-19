@@ -1,0 +1,63 @@
+.hello {
+
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+
+    width: 100em;
+}
+
+.custom {
+    --main-bg: red;
+}
+
+.custom-1 {
+    background-color: var(--main-bg);
+}
+
+:root {
+
+    --color--text: blue;
+    --color--bg: #ae5656;
+    --color-text-btn: rgba(244, 244, 244, 0.901);
+
+}
+
+.theme-class {
+    background-color: var(--color--bg);
+
+}
+
+.theme {
+    color: var(--color-text-btn)
+}
+
+.toggle {
+    color: var(--color--bg);
+}
+
+.box {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+.form-style {
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.label-style {
+    font-size: large;
+    font-weight: bold;
+
+
+}
+
+.class-style {
+    font-size: large;
+    font-weight: bold;
+
+
+}
